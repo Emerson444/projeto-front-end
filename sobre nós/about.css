@@ -19,7 +19,7 @@ body{
 
 .nav-item{
     margin: 10px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .navbar-brand{
@@ -44,7 +44,7 @@ ul{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(img/Sem\ título.png);
+    background-image: url(/img/Sem\ título.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 300vh;
