@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: popping;
+}
+
+#navbarNav{
+    display: flex;
+    font-size: 15px;
+    width: 100%;
+}
+
+.nav-item{
+    margin: 10px;
+    font-size: 20px;
+}
+
+.navbar-brand{
+    font-size: 35px;
+    position: relative;
+    bottom: 3%;
+    left: 24px;
+  }
+
+ul{
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+
+.container-fluid-h1{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300vh;
+    filter: drop-shadow(-1px 5px 7px #000000);
+}
+
+
+
+.container-fluid-h1 h1{
+    font-size: 60px;
+    color: aliceblue;
+}
+
+.container-fluid-h1 h2{
+    font-size: 20px;
+    color: aliceblue;
+}
+
+
+.container-fluid-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 210vh;
+}
+
+.container-fluid-main .bloco{
+    width: 85%;
+    height: 200vh;
+    background-color: rgb(230, 229, 229);
+    display: flex;
+    justify-content: column;
+    align-items: start;
+    flex-direction: column;
+    filter: drop-shadow(-1px 11px 13px #000000);
+
+}
+
+
+.titulo{
+    top: 5vh;
+    left: 15vh;
+    position: relative;
+    font-size: 70px;
+    text-decoration: underline rgb(255, 192, 19);
+}
+
+.mensagem-1{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    
+}
+
+.img-1{
+    width: 40%;
+    height: 500px;
+    border-radius: 50%;
+    right: 5vh;
+    top: 1%;
+    position: relative;
+
+}
+
+.p-text{
+    font-size: 28px;
+    position: relative;
+    bottom: 25vh;
+    left: 5vh;
+    
+}
+
+.bloco-2{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-2{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: end;
+}
+
+.titulo-2 .h1-2{
+    font-size: 45px;
+    text-transform: uppercase;
+    position: relative;
+    right: 45px;
+}
+
+.titulo-2 .h1-p2{
+    font-size: 45px;
+    font-weight: bold;
+    position: relative;
+    right: 30vh;
+    background-color: #FFC107;
+}
+
+
+
+
+
