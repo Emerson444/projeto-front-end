@@ -124,4 +124,35 @@ ul{
     
 }
 
+.bloco-2{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-2{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: end;
+}
+
+.titulo-2 .h1-2{
+    font-size: 45px;
+    text-transform: uppercase;
+    position: relative;
+    right: 45px;
+}
+
+.titulo-2 .h1-p2{
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    right: 30vh;
+    background-color: #FFC107;
+}
+
+
 
