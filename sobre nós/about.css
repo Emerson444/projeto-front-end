@@ -52,6 +52,7 @@ ul{
     background-position: center;
     background-size: 300vh;
     filter: drop-shadow(-1px 5px 7px #000000);
+    background-image: url(/img/Sem\ título.png);
 }
 
 
@@ -151,6 +152,34 @@ ul{
     position: relative;
     right: 30vh;
     background-color: #FFC107;
+}
+
+.img-2{
+    width: 500px;
+    position: relative;
+    left: 15vh;
+    border-radius: 50%;
+}
+
+.bloco-2 .mensagem-2{
+    display: flex;
+    width: 100%;
+}
+
+
+.mensagem-2 .text-2{
+    width: 50%;
+    height: 30%;
+    font-size: 25px;
+    text-transform: uppercase;
+    position: relative;
+    left: 25vh;
+    padding: 25px;
+    margin: 15px;
+    letter-spacing: .2rem;
+}
+
+.text-2 .p-2{
 }
 
 
