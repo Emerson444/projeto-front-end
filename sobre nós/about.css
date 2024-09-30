@@ -203,3 +203,41 @@ ul{
     font-size: 25,5px;
     text-decoration: underline#FFC107;
 }
+
+.container-fluid-service{
+    width: 100%;
+    height: 75vh;
+    background-image: url(/img/fundo.png);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.card1{
+    background-color: antiquewhite;
+    width: 26%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card1 h1{
+    font-size: px;
+}
+
+.card2 p{
+}
+
+.card2{
+    width: 26%;
+    height: 50vh;
+    background-color: antiquewhite;
+}
+
+.card3{
+    width: 26%;
+    height: 50vh;
+    background-color: antiquewhite;
+}
