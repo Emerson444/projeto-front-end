@@ -11,7 +11,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-family: popping;
+font-family: poppins;
 }
 
 #navbarNav{
@@ -25,15 +25,33 @@ body{
     font-size: 20px;
 }
 
-.navbar-brand{
-    font-size: 35px;
-    position: relative;
-    bottom: 3%;
-    left: 24px;
-  }
 
 ul{
     text-transform: uppercase;
     font-weight: bold;
 
+}
+
+.container-fluid-h1{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/istockphoto-1853686056-1024x1024.jpg);
+    background-repeat: no-repeat;
+    background-size: 900vh;
+}
+
+
+
+.container-fluid-h1 h1{
+    font-size: 60px;
+    color: aliceblue;
+}
+
+.container-fluid-h1 h2{
+    font-size: 20px;
+    color: aliceblue;
 }
