@@ -14,9 +14,8 @@ body{
     justify-content: center;
 }
 
-.navbar header{
+.container-fluid-navbar{
     width: 100%;
     height: 25px;
-    background-color: black;
-    border: red solid 2px;
+    background-color: rgb(255, 0, 0);
 }
