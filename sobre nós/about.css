@@ -12,7 +12,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-family: popping;
 }
 
 #navbarNav{
@@ -23,7 +22,7 @@ body{
 
 .nav-item{
     margin: 10px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 #navbar-brand{
