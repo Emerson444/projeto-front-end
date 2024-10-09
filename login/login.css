@@ -30,13 +30,31 @@ body{
 .container-fluid-img{
   width: 42%;
   background-image: url(https://images.pexels.com/photos/220938/pexels-photo-220938.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
-  background-size: 450px;
+  background-size: 500px;
   background-repeat: no-repeat;
   filter: drop-shadow(-1px 5px 7px #000000);
 }
 
+.text-1 h1{
+    position: relative;
+    font-size: 80px;
+    text-decoration: underline#FFC107;
+    font-weight: bold;
+}
+
+.text-1 p{
+    font-size: 30px;
+    width: 80vh;
+    position: relative;
+    left: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+
 img{
-    width: 400px;
+    width: 450px;
 }
 
 .input-login{
@@ -46,11 +64,20 @@ img{
     align-items: center;
     height: 100vh;
     flex-direction: column;
+
+    input{
+        width:300px
+      }
 }
 
-a{
+.input-login .a{
     text-decoration: none;
     color: black;
+}
+
+a{ 
+    text-decoration: none;
+    color:#004cff
 }
 
 .container-fluid-footer{
